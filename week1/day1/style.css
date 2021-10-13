@@ -1,0 +1,14 @@
+
+
+
+.div-container{
+	background: yellow;
+	padding: 50px 10px 50px;
+	margin: 5px;
+	border: ;1px solid #000000
+	width: 200px;
+	box-sizing: border-box;
+	display: inline-block;
+	justify-content: flex-start;
+	align-items: center;
+	font-family: 'Festive', cursive;

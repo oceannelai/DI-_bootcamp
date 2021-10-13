@@ -1,0 +1,44 @@
+body{
+	background-image: url(holiday.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.container{
+padding: 10px;
+	border: 6px double; black;
+	margin-left: 400px;
+	width: 20%;
+	box-sizing: border-box;
+	text-align: left;
+	}
+
+h1{
+
+font-family:dancing script ;;
+text-align: center;
+
+
+}
+h1:hover{
+	transform: scale(1.2);
+
+}
+
+
+
+h2,p{
+font-family: ephesis;
+text-align: center;
+
+}
+p{
+	font-style: bold;
+	text-align: left;
+	font-family: solid;
+}
+
+a href:hover{
+	transform: scale(2.3);
+}

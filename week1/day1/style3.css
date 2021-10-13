@@ -1,0 +1,43 @@
+body{
+	background-image: url(download.jpeg);
+	background-size: cover;
+	background-repeat: no-repeats;
+	hd resolution: 1070p;
+}
+header{
+	color: indianred;
+	font-family: inherit;
+	border: chocolate;
+}
+
+p{
+	color: grey;
+	text-align: bottom;
+}
+
+.container{
+	padding: 10px;
+	border: 5px solid; white;
+	margin-left: 200px;
+	width: 
+	70%;
+	box-sizing: border-box;
+	text-align: bottom center;
+	align-content: flex-end;
+
+}
+.w3-bar-item{
+	font-family: arial;
+	justify-content: space-evenly;
+	text-decoration: none;border-bottom: 1px;
+	
+}
+.
+}
+h3{color: rosybrown;}
+
+
+
+
+
+
