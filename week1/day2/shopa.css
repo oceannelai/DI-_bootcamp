@@ -1,0 +1,90 @@
+body{
+	background-image: url(blue.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+h1{
+	font-family: birthstone;
+	font-size: 350%;
+
+}
+.fa-sun { 
+	color: #FFD22C;
+	background-color: rgba(71, 156, 206);
+		font-size: 90px;
+
+
+ }
+
+ header { font-size: 250%;
+ 	margin-bottom: 35%;
+ 	margin-top: -5%;
+  }
+
+
+  .navbar {
+  background-color: #98C2F0;
+  overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  color: #F2F2F2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #FFF299;
+  color: black;
+}
+/* Add a color & backgroundto the active link */
+.navbar a.active {
+  background-color: #0962D5;
+  color: white;
+}
+
+.navbar{
+		float: right;
+		width: 45%;
+		margin: 10px;
+	}
+
+footer {
+	margin: 5%;
+	font-family: initial;
+
+}
+
+/*style the paragraph*/
+p{ 
+	line-height: 40px;
+	font-family: cursive;
+	font-size: 500%;
+	background-size: beige;
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
