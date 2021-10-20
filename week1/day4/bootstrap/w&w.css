@@ -1,0 +1,46 @@
+.container-fluid {
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1, h3{
+   font-family: 'Lato', sans-serif;
+}
+
+
+
+.card{
+    width: 100px;
+    height: 30vh;
+}
+
+
+.nav-stacked,.nav-item,.nav-item {
+    text-align: center;
+    margin-top: 10px;
+    margin-left:5px ;
+    width: 10px;
+}
+.col-sm-3{
+    width: 100xp;
+    margin:auto ;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.col-sm-9{
+    margin-top: 10%;
+}
+@media (min-width: 544px){
+.col-sm-3 {
+    width: 25%;
+}
+}
+@media (min-width: 544px){
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 
+    float: left;
+}
+}
+

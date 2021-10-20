@@ -1,0 +1,164 @@
+Last login: Tue Oct 12 10:29:05 on ttys001
+Admins-MacBook-Pro:~ admin$ pwd
+/Users/admin
+Admins-MacBook-Pro:~ admin$ ls
+Applications		Library			Public
+Desktop			Movies			iCloud Drive (Archive)
+Documents		Music
+Downloads		Pictures
+Admins-MacBook-Pro:~ admin$ cd Desktop
+Admins-MacBook-Pro:Desktop admin$ ls
+<!DOCTYPE html>.html	index.html		w1-d2
+DI exercises		index3.html		week1 folder
+about.html		style.css		week1-day1
+images			test.html		week1:index.html
+Admins-MacBook-Pro:Desktop admin$ cd week1:index.html
+-bash: cd: week1:index.html: Not a directory
+Admins-MacBook-Pro:Desktop admin$ cd w1-d2
+Admins-MacBook-Pro:w1-d2 admin$ git confid --global oceannelai6601@gmail.com
+git: 'confid' is not a git command. See 'git --help'.
+
+The most similar command is
+	config
+Admins-MacBook-Pro:w1-d2 admin$ ls
+Admins-MacBook-Pro:w1-d2 admin$ ls
+Admins-MacBook-Pro:w1-d2 admin$ Ls
+Admins-MacBook-Pro:w1-d2 admin$ ls
+index.html
+Admins-MacBook-Pro:w1-d2 admin$ git init
+Initialized empty Git repository in /Users/admin/Desktop/w1-d2/.git/
+Admins-MacBook-Pro:w1-d2 admin$ git add .
+Admins-MacBook-Pro:w1-d2 admin$ git commit -m
+error: switch `m' requires a value
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <default>   how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+
+Admins-MacBook-Pro:w1-d2 admin$ git commit -m "my first push to github"
+[master (root-commit) 9133450] my first push to github
+ 1 file changed, 10 insertions(+)
+ create mode 100644 index.html
+Admins-MacBook-Pro:w1-d2 admin$ git branch -M main
+Admins-MacBook-Pro:w1-d2 admin$ git remote add origin https://github.com/oceannelai/git4mu..git
+Admins-MacBook-Pro:w1-d2 admin$ git push -u origin main
+Username for 'https://github.com': oceannelai
+Password for 'https://oceannelai@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/oceannelai/git4mu..git/'
+Admins-MacBook-Pro:w1-d2 admin$ git push -u origin main
+Username for 'https://github.com': oceannelai
+Password for 'https://oceannelai@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 309 bytes | 154.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/oceannelai/git4mu..git
+ * [new branch]      main -> main
+Branch main set up to track remote branch main from origin.
+Admins-MacBook-Pro:w1-d2 admin$ git add .
+Admins-MacBook-Pro:w1-d2 admin$ git commit -m "hello"
+[main d5ebd0d] hello
+ 1 file changed, 1 insertion(+)
+Admins-MacBook-Pro:w1-d2 admin$ git push 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 290 bytes | 290.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/oceannelai/git4mu..git
+   9133450..d5ebd0d  main -> main
+Admins-MacBook-Pro:w1-d2 admin$ git status
+On branch main
+Your branch is up-to-date with 'origin/main'.
+
+nothing to commit, working tree clean
+Admins-MacBook-Pro:w1-d2 admin$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+Admins-MacBook-Pro:w1-d2 admin$ git commit -m"add hello to body"
+On branch main
+Your branch is up-to-date with 'origin/main'.
+
+nothing to commit, working tree clean
+Admins-MacBook-Pro:w1-d2 admin$ git push
+Everything up-to-date
+Admins-MacBook-Pro:w1-d2 admin$ ls
+git		index.html	newrepo.html
+Admins-MacBook-Pro:w1-d2 admin$ newrepo.html
+-bash: newrepo.html: command not found
+Admins-MacBook-Pro:w1-d2 admin$ cd newrepo.html
+-bash: cd: newrepo.html: Not a directory
+Admins-MacBook-Pro:w1-d2 admin$ ls
+git		index.html	newrepo.html
+Admins-MacBook-Pro:w1-d2 admin$ cd w1-d2
+-bash: cd: w1-d2: No such file or directory
+Admins-MacBook-Pro:w1-d2 admin$ li
+-bash: li: command not found
+Admins-MacBook-Pro:w1-d2 admin$ ls
+git		index.html	newrepo.html
+Admins-MacBook-Pro:w1-d2 admin$ newrepo.html
+-bash: newrepo.html: command not found
+Admins-MacBook-Pro:w1-d2 admin$ git init
+Reinitialized existing Git repository in /Users/admin/Desktop/w1-d2/.git/
+Admins-MacBook-Pro:w1-d2 admin$ git add oceannelai
+fatal: pathspec 'oceannelai' did not match any files
+Admins-MacBook-Pro:w1-d2 admin$ newrepo.html
+-bash: newrepo.html: command not found
+Admins-MacBook-Pro:w1-d2 admin$ ls
+git		index.html	newrepo.html
+Admins-MacBook-Pro:w1-d2 admin$ newrepo.html
+-bash: newrepo.html: command not found
+Admins-MacBook-Pro:w1-d2 admin$ git init
+Reinitialized existing Git repository in /Users/admin/Desktop/w1-d2/.git/
+Admins-MacBook-Pro:w1-d2 admin$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+Admins-MacBook-Pro:w1-d2 admin$ 

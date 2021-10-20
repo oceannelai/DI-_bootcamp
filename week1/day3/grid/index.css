@@ -1,0 +1,63 @@
+.outer-div{
+	display: grid;
+	grid-template-columns:minmax(100px, 1fr) 4fr 5fr; 
+		grid-auto-rows: 100px 100px;
+
+		/*gap between column*/
+		grid-column-gap: 10px;
+		/*gap between rows*/
+		grid-row-gap: 10px;
+		/*grip-gap = for both columns and rows*/
+
+ 
+
+
+}
+
+
+.inner-div{
+
+	border: 1px solid black;
+	padding: 30px;
+
+}
+
+
+.box-1{
+	background-color: lightblue;
+
+	/*grid-column-start: span 1;*/
+	/*grid-column-end: span 3;*/
+	/*grid-row-start: 1;*/
+/*grid-row-end:  3;*/
+
+
+
+}
+
+
+.box-2{
+background-color: royalblue;
+/*grid-column:  1/3;*/
+/*grid-row: 2/4;*/
+
+
+}
+
+.box-3{
+	background-color: lightsteelblue;
+	/**/
+		/*grid area:  1/2/3/4;*/
+}
+.box-4{
+	background-color: grey;
+}
+
+.box-5{ 
+background-color: yellow; }
+.box-6{
+	background-color: pink;
+	/*grid-row: 1/4;*/
+	
+}
+

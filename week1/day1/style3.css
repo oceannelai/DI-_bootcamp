@@ -1,43 +1,79 @@
 body{
-	background-image: url(download.jpeg);
+	background-image: url(spiderman6.jpeg);
 	background-size: cover;
-	background-repeat: no-repeats;
-	hd resolution: 1070p;
-}
+	background-repeat: no-repeat;
+}	
 header{
 	color: indianred;
-	font-family: inherit;
-	border: chocolate;
-}
-
-p{
-	color: grey;
-	text-align: bottom;
-}
+    font-family: 'Playfair Display', serif;
+	}
 
 .container{
-	padding: 10px;
-	border: 5px solid; white;
-	margin-left: 200px;
-	width: 
-	70%;
-	box-sizing: border-box;
-	text-align: bottom center;
-	align-content: flex-end;
+	color: burlywood ;
+	text-align: bottom;
+ font-family: 'Anton', sans-serif;
+  font-size: 240%;
+}
+
+img{
+	float: right;
+  width:  50%;
+
+   ;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.topnav {
+  background-color:rgba(85, 0, 0, 0.5); white;
+  overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: red;
+  }
+/* Add a color to the active/current link */
+.topnav a.active {
+  
+  color: white;
+}
+
+header{
+  text-align: center;
+  font-size: 300%;
+  background-color: rgba(85, 0, 0,0.2)
 
 }
-.w3-bar-item{
-	font-family: arial;
-	justify-content: space-evenly;
-	text-decoration: none;border-bottom: 1px;
-	
+@media screen and (min-width: 900px){
+ header{ color:#7C0208;
+ font-family:cursive; }
 }
-.
+@media screen and (max-width: 1000px){
+  .container{ color: #486DC3;
+    font-family: 'Dancing Script', cursive;
 }
-h3{color: rosybrown;}
+}
+@media screen and (max-width: 1000px){
+  .topnav{ background-color:rgba(0, 0, 175, 0.2) ; }
+}
 
-
-
+@media screen and (max-width: 1000px){
+  .topnav a:hover{
+    background-color: blue;
+  }
+}
 
 
 

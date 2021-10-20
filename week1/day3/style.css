@@ -1,0 +1,50 @@
+.outer-div{
+	height: 40vh;
+display: flex;
+
+/*row,row-reverse,column,column-reverse*/
+flex-direction: row;
+
+/*center,flex-start,flex-end,space-between,space-evenly,*/
+
+
+/*flex-end,flex-start,center,center stretch,baselin*/
+align-items: center stretch;;
+}
+
+.inner-div{
+	border: 2px dotted black;
+	padding: 10px;
+	text-align: stretch;
+}
+
+.box-1{
+	background-color: bisque;
+	order: 3;
+	align-self: flex-start;
+	/*flex-grow: 1;*/
+	flex-shrink: 3;
+
+
+}
+.box-2{
+	background-color:royalblue;
+	order: 1;
+	align-self: flex-end;
+	/*flex grow: 1;*/
+	/*it will shrink by 3*/
+	flex-shrink: 3;
+
+
+
+
+}
+
+.box-3{
+	background-color: khaki;
+	order: 10;
+	align-self: stretch;
+	/*flex-grow: 2;*/
+
+
+}

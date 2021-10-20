@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+.container-1{
+    background-image: url(keyboard.jpeg);
+     height: 30vh;    
+   background-size: cover;
+    background-color: beige;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+}
+h1{  font-family: 'Oswald', sans-serif;
+      font-size: 100%;
+   text-align: center;
+   align-items: stretch;
+
+}
+h2{ 
+    font-size: 10%;
+    text-align: center;
+    color:#1F0A02;
+}
+
+.navbar-light{
+    width: 100%;
+}
+
+  #overlay {
+
+    position: absolute;
+    /* display: none; */
+    width: 100%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255, 255, 249/ 22%);
+    z-index: 2;
+    cursor: pointer;}
+
+.container-fluid{
+    font-family: 'Abel', sans-serif;
+}
+.nav-padding-zero{
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+
+    
+
+
+    }
+
+h5{
+    color: #af9c8d;
+    font-family:'Abel', sans-serif ;
+    font-size: 400%;
+    text-align: center;
+
+   ; 
+}
+h6 {
+    color: #9E6900;
+    text-align: left;
+    font-size: 300%;
+
+}
+
+span{
+    font-size: 100%;
+}
+
+.main,.blog,.team,.contact{
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    
+}
+.d-flex {
+    display: flex!important;
+    align-content: center;
+    justify-content: center;
+}
+
+.container-4{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    flex-direction: row;
+}
+
+.name{
+    padding: 10px;
+    margin: 10px;
+   font-family: 'Fjalla One', sans-serif;
+    background-image: radial-gradient( circle 755px at 10.1% 95.3%,  rgba(242,188,141,1) 0%, rgba(242,159,141,1) 100.2% );
+}
+
+.fa-linkedin,.fa-github,.fa-facebook-square {
+    font-size: 150%;
+}

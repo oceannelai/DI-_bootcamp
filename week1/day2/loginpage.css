@@ -1,0 +1,37 @@
+body{
+	background-image: url(background.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.container{
+	width: 380xp;
+	margin: auto;
+	border-spacing: 25px;
+	background-color: rgba(0, 0, 0, 1.);
+}
+
+
+
+.header{
+	text-align: center;
+	padding-top: 75xp;
+
+}
+.header{
+	color: #333;
+	font-size: 45xp;
+	margin-bottom: 80xp;
+
+}
+.main{
+	text-align: center;
+
+}
+.main input,button {
+	width: 300xp;
+	height: 40xp;
+	outline: none;
+	border: none;
+}

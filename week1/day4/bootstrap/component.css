@@ -1,0 +1,26 @@
+h1{
+	font-family: arial;
+}
+
+.fa-map-marker-alt,.fa-chart-bar,.{
+	font-size: 70%;
+}
+.nav-padding-zero{
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.button{
+	background-color: green !important;
+	color: white !important;
+}
+.navbar-light{
+	width: 120% !important;
+}
+.navbar{
+	justify-content: center;
+}
+.bg-light{
+	background-color: green;
+}
